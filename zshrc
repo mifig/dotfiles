@@ -72,7 +72,7 @@ export EDITOR=code
 export PYTHONBREAKPOINT=ipdb.set_trace
 
 
-export PATH="${HOME}/miniforge3/bin:${PATH}"
+# export PATH="${HOME}/miniforge3/bin:${PATH}"
 # source $HOME/miniforge3/bin/activate
 
 # UNCOMMENT TO ACTIVATE CONDA ENV:
@@ -80,7 +80,7 @@ export PATH="${HOME}/miniforge3/bin:${PATH}"
 # source $HOME/opt/anaconda3/bin/activate
 
 # conda deactivate
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
 
 
 
